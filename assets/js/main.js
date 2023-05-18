@@ -33,18 +33,18 @@ window.addEventListener("scroll", () => {
   })
 })
 
-// function linkAction() {
-//   /*Active link*/
-//   navLinks.forEach((n) => n.classList.remove("active"));
-//   this.classList.add("active");
+function linkAction() {
+  /*Active link*/
+  navLinks.forEach((n) => n.classList.remove("active"));
+  this.classList.add("active");
 
-//   /*Remove menu mobile*/
+  /*Remove menu mobile*/
 const navMenu = document.getElementById("nav-menu");
-//   navMenu.classList.remove("show");
-// }
+  navMenu.classList.remove("show");
+}
 navLinks.forEach((n) => n.addEventListener("click", () => { navMenu.classList.remove("show") }));
 
-/*===== COPY Email =====*/
+/*===== COPY  =====*/
 const copy = document.getElementById("copy");
 copy.addEventListener("click", () => {
   navigator.clipboard.writeText("+91 8319950311");
@@ -56,7 +56,7 @@ copy.addEventListener("click", () => {
 
 const copy2 = document.getElementById("copy2");
 copy2.addEventListener("click", () => {
-  navigator.clipboard.writeText("riteshtiwari842@gmail.com.com");
+  navigator.clipboard.writeText("riteshtiwari842@gmail.com");
   copy2.innerHTML = "copied";
   setTimeout(() => {
     copy2.innerHTML = null;
@@ -74,25 +74,33 @@ const sr = ScrollReveal({
 /*SCROLL HOME*/
 sr.reveal(".home-title", {});
 sr.reveal(".button", { delay: 200 });
-sr.reveal(".home-img", { delay: 400 });
+sr.reveal(".home-img", { delay: 200 });
 sr.reveal(".home-social-icon", { interval: 200 });
 
 /*SCROLL ABOUT*/
 sr.reveal(".about-img", {});
-sr.reveal(".about-subtitle", { delay: 400 });
-sr.reveal(".about-text", { delay: 400 });
+sr.reveal(".about-subtitle", { delay: 200 });
+sr.reveal(".about-text", { delay: 200 });
+
+/*SCROLL EXPERIENCE*/
+sr.reveal(".project-img", {});
+sr.reveal(".project-subtitle", { delay: 300 });
+sr.reveal(".project-text", { delay: 300 });
+
+/*SCROLL ACHIEVEMENTS*/
+sr.reveal(".about-img", {});
+sr.reveal(".about-subtitle", { delay: 300 });
+sr.reveal(".about-text", { delay: 300 });
 
 /*SCROLL SKILLS*/
 sr.reveal(".skills-subtitle", {});
 sr.reveal(".skills-text", {});
 sr.reveal(".skills-data", { interval: 100 });
-// sr.reveal(".skills-img", { delay: 600 });
+
 
 /*SCROLL projects*/
-sr.reveal(".project-img", { interval: 200 });
+sr.reveal(".project-img", { interval: 100 });
 
-/*SCROLL CONTACT*/
-  // sr.reveal(".contact-input", { interval: 200 });
 
   function myFunction(){
     var element = document.body;

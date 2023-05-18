@@ -186,7 +186,7 @@ img {
 .nav-logo img {
   color: var(--second-color);
   font-weight: var(--font-semi);
-  width: 8rem; 
+  width: 6rem; 
   
 }
 .nav-toggle {
@@ -241,7 +241,7 @@ img {
 }
 .home-social-icon:hover,
 .footer-icon:hover {
-  color:yellow;
+  color:rgb(251, 255, 0);
 }
 .home-img {
   position: absolute;
@@ -533,9 +533,8 @@ img.man-icons {
  
 }
 .footer-title {
-  font-size: 2rem;
+  font-size: 3.5rem;
   margin-bottom: var(--mb-4);
-  font-size: 50px;
   color: yellow;
 }
 .footer-social {
