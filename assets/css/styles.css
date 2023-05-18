@@ -186,7 +186,7 @@ img {
 .nav-logo img {
   color: var(--second-color);
   font-weight: var(--font-semi);
-  width: 6rem; 
+  width: 5rem; 
   
 }
 .nav-toggle {
@@ -533,7 +533,7 @@ img.man-icons {
  
 }
 .footer-title {
-  font-size: 3.5rem;
+  font-size: 2rem;
   margin-bottom: var(--mb-4);
   color: yellow;
 }
