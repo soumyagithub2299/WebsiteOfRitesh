@@ -241,7 +241,7 @@ img {
 }
 .home-social-icon:hover,
 .footer-icon:hover {
-  color:rgb(251, 255, 0);
+  color:rgb(85, 0, 255);
 }
 .home-img {
   position: absolute;
@@ -624,8 +624,22 @@ img.man-icons {
   .achievement-img {
   display: flex;
   flex-direction: row;
-  gap: 10 px;
+  column-gap: 10px;
+  border-radius: 2rem;
+  cursor: pointer;
   }
+
+  
+.achievement-img img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+
+
+
   .project-container {
     grid-template-columns: repeat(2, 1fr);
     /* grid-template-rows: repeat(2, 1fr); */
