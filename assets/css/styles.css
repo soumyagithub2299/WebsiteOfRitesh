@@ -602,6 +602,7 @@ img.man-icons {
     width: 39%;
     max-width: 420px;
     bottom: 15%;
+   
   }
   .about-container {
     align-items: center;
@@ -618,6 +619,12 @@ img.man-icons {
   }
   .about-img img {
     width: 300px;
+    
+  }
+  .achievement-img {
+  display: flex;
+  flex-direction: row;
+  gap: 10 px;
   }
   .project-container {
     grid-template-columns: repeat(2, 1fr);
