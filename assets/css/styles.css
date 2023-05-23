@@ -610,6 +610,20 @@ img.man-icons {
     width: 50%;
     transition: 0.5s;
   }
+  .achievement-img {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    border-radius: 2rem;
+    cursor: pointer;
+    }
+  
+  .achievement-img img:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      transition: 0.5s ease;
+  }
   /* .about-container {
     width: 50%;
   } */
@@ -635,9 +649,6 @@ img.man-icons {
     transform: scale(1.1);
     transition: 0.5s ease;
 }
-
-
-
 
   .project-container {
     grid-template-columns: repeat(2, 1fr);
